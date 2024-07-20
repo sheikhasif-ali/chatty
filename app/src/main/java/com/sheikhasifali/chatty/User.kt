@@ -1,4 +1,4 @@
-package com.sheikhasifali.chatapplication
+package com.sheikhasifali.chatty
 
 class User {
     var name: String? = null

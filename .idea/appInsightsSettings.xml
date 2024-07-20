@@ -9,7 +9,7 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="com.sheikhasifali.chatapplication" />
+                  <option name="appId" value="com.sheikhasifali.chatty" />
                   <option name="mobileSdkAppId" value="1:937857557876:android:6f6a6326bb9d753bc17821" />
                   <option name="projectId" value="chat-application-1ccd1" />
                   <option name="projectNumber" value="937857557876" />

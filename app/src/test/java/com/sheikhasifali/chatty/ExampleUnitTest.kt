@@ -1,4 +1,4 @@
-package com.sheikhasifali.chatapplication
+package com.sheikhasifali.chatty
 
 import org.junit.Test
 

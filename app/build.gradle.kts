@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.sheikhasifali.chatapplication"
+    namespace = "com.sheikhasifali.chatty"
     compileSdk = 34
 
     buildFeatures {
@@ -13,7 +13,7 @@ android {
         dataBinding = true
     }
     defaultConfig {
-        applicationId = "com.sheikhasifali.chatapplication"
+        applicationId = "com.sheikhasifali.chatty"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

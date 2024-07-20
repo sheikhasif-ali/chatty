@@ -1,4 +1,4 @@
-package com.sheikhasifali.chatapplication
+package com.sheikhasifali.chatty
 
 class Message {
     var message: String? = null

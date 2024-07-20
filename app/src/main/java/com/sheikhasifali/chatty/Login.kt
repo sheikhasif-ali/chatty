@@ -1,4 +1,5 @@
-package com.sheikhasifali.chatapplication
+package com.sheikhasifali.chatty
+
 
 import android.content.Intent
 import android.os.Bundle
@@ -12,7 +13,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsAnimationCompat
 import androidx.core.view.WindowInsetsCompat
 import com.google.firebase.auth.FirebaseAuth
-import com.sheikhasifali.chatapplication.databinding.ActivityLoginBinding
+import com.sheikhasifali.chatty.databinding.ActivityLoginBinding
 
 class Login : AppCompatActivity() {
 

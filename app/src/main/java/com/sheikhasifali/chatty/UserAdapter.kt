@@ -1,4 +1,4 @@
-package com.sheikhasifali.chatapplication
+package com.sheikhasifali.chatty
 
 import android.content.Context
 import android.content.Intent

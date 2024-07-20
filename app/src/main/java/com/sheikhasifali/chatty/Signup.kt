@@ -1,4 +1,4 @@
-package com.sheikhasifali.chatapplication
+package com.sheikhasifali.chatty
 
 import android.content.Intent
 import android.os.Bundle
@@ -12,7 +12,7 @@ import androidx.core.view.WindowInsetsCompat
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
-import com.sheikhasifali.chatapplication.databinding.ActivitySignupBinding
+import com.sheikhasifali.chatty.databinding.ActivitySignupBinding
 
 class Signup : AppCompatActivity() {
 

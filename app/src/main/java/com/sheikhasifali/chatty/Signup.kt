@@ -25,7 +25,7 @@ class Signup : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(binding.root)
         supportActionBar?.hide()
-        getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);
+        getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN)
         mAuth = FirebaseAuth.getInstance()
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
@@ -49,7 +49,6 @@ class Signup : AppCompatActivity() {
                 if (task.isSuccessful) {
                     // Sign in success, update UI with the signed-in user's information
                     Log.d("firebaseTag", "createUserWithEmail:success")
-                    val user = mAuth.currentUser
                     addUserToDatabase(name, email, mAuth.currentUser?.uid!!)
                     finish()
                     startActivity(Intent(this@Signup, MainActivity::class.java))
